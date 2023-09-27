@@ -1,0 +1,45 @@
+body{
+  background-color: #302f2f;
+  margin: 0;
+  padding: 0;
+}
+.all-box{
+  display: block;
+}
+.name-to-sait{
+  display: flex;
+}
+.name-to-sait > a{
+  margin: auto;
+  font-size: 50px;
+  color: #4a4a4a;
+  margin-top: 10px;
+}
+.menu-box{
+  display: flex;
+  margin-left: 0;
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  background-color: #4a4a4a;
+}
+.menu-box > div {
+margin-left: 30px;
+}
+.menu-box > div > input{
+  width: auto;
+  height: 30px;
+  color: #767373;
+  margin-top: 10px;
+  background-color: #302f2f;
+  outline: none;
+  border: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 1s;
+}
+.menu-box > div > input:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+  filter: drop-shadow(0px 10px 10px black);
+}
